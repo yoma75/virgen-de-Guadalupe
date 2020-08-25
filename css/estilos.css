@@ -1,0 +1,82 @@
+@import url(queriesRosario.css);
+@import url(queriesIndex.css);
+@import url(queriesSalmos.css);
+
+
+/* Logo -------------------------------------- */
+.rosa img {
+    width: 60px;
+    height: 56px;
+    margin-right: 10px;
+}
+
+.rosa span {
+    font-size: 23px;
+}
+/* ------------------------------------------ */
+
+/* Card credo ------------------------------ */
+.txt1{
+    font-size: 17px !important;
+}
+
+.credo {
+    height: 245px;
+    object-fit: cover;
+}
+/* ---------------------------------------- */
+
+/* Color negro body */
+body {
+    background-color: black;
+    color: white;
+}
+
+.negro {
+    background-color: black;
+}
+/* ---------------------------------------- */
+
+.fotoFondo {
+    background-image: url(../img/fondo1.jpg);           
+    background-size: cover;
+    min-height: 500px;   
+    background-repeat: no-repeat;
+}
+
+.color-de-fondo {
+    background-color: rgba(22, 21, 21, 0.411);
+    min-height: 550px;
+}
+
+.texto {    
+    text-align: justify;
+    font-size: 17px !important;
+}
+
+.cuadrar {
+    margin-top: 109px;
+}
+
+footer i {
+    cursor: pointer;
+}
+
+.imagen_salmo img {
+    width: 530px; 
+    height: auto;
+}
+
+.cuadrar_foto_salmo {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* oraciones.html */
+.card-body {
+    line-height:23px;
+    background-color:black;
+    font-size: 18px;
+}
+

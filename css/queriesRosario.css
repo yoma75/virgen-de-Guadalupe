@@ -1,0 +1,44 @@
+/* rosario html ----------------- */
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px)  {
+    /* segundo misterio */
+    .estirar1 { 
+        height: 693px;
+    }
+
+    /* tercer misterio */
+    .bajar1 {
+        margin-top: 19px;
+    }
+    .estirar4 {
+        height: 380px;
+    }
+
+    /* cuarto misterio */
+    .estirar3 {
+        height: 170px;
+    }
+
+    /* quinto misterio */
+    .estirar2 {
+        height: 752px;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 992px) and (max-width: 1199px)  {
+    /* primer y segundo misterio */
+    #enc {
+        height: 172px !important;
+    }
+    #bajar {
+        height: 707px !important
+    }
+
+    /* quinto misterio */
+    #bajar1 {
+        height: 630px !important
+    }
+}
+/* fin rosario html ----------------- */
+
