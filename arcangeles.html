@@ -1,38 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <link rel="shortcut icon" type="image/png" href="img/rosario.png">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Arcangeles</title>
+   <link rel="shortcut icon" type="image/png" href="img/rosario.png">
+   <link rel="stylesheet" href="css/estilos.css">
+   <title>Arcangeles</title>
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
-        <div class="container rosa">
-            <a class="navbar-brand" href="index.html"><img src="img/rosa.png" alt="rosa" title="inicio"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
+   <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+      <div class="container rosa">
+         <a class="navbar-brand" href="index.html"><img src="img/rosa.png" alt="rosa" title="inicio"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto font-weight-bold">
-                    <a class="nav-item nav-link active" href="rosario.html">Rosario</a>
-                    <a class="nav-item nav-link" href="salmos.html">Salmos</a>
-                    <a class="nav-item nav-link" href="oraciones.html">Oraciones</a>                  
-                </div>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto font-weight-bold">
+               <a class="nav-item nav-link active" href="rosario.html">Rosario</a>
+               <a class="nav-item nav-link" href="salmos.html">Salmos</a>
+               <a class="nav-item nav-link" href="oraciones.html">Oraciones</a>                  
             </div>
-        </div>
-    </nav>
+         </div>
+      </div>
+   </nav>
 
-    <div class="container">
-        <h3 class="mb-4 mt-4 text-center text-warning">Arcangeles:</h3>
-        
-    </div>
+   <div class="container">      
+      <div class="col">
+         <h3 class="mb-4 mt-4 text-center text-warning">Arcangeles:</h3>
+      </div>
+      
+      <div class="row">
+         <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+               <div class="col-md-4">
+                  <img src="./img/san gabriel.jpg" class="card-img" alt="San Gabriel" style="height:245px; object-fit:cover;">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body">
+                     <h5 class="card-title">San Gabriel</h5>
+                     <p class="card-text">Amado Gabriel "Cristo vive en mi". Nos ayuda para las depresiones, apacigua a las personas enojadas, nos provee de cambios provechosos y aleja la falsedad.</p>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Oración</button>
+   
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                           <div class="modal-content">
+                              <div class="modal-header bg-primary">
+                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Gabriel</h5>
+                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="text-light">X</span>
+                                 </button>
+                              </div>
+                              <div class="modal-body">
+                                 <p class="text-dark text-center">Me regocijo en tu manto de amor, del que fluye libremente la vida de Dios.Al cerrar mis ojos todo es paz, benevolencia y comprensión, cubriéndome de lo invisible e invencible que emna de la comprensión que simbolizas. Tu blanca luz ilumina todos los senderos que conducen al  nacimiento de todo. Bajo tus alas la seguridad que me das permite la presencia de Cristo en mí. Gracias, amén.</p>
+                              </div>
+                              <div class="modal-footer bg-warning">
+                                 <p class="text-dark">3 Padrenuestros, 3 Avemarías, 1 Gloria.</p>
+                              </div>
+                           </div>
+                        </div> <!-- /modal-dialog -->
+                     </div> <!-- /modal fade -->
+                  </div> <!-- /card-body -->
+               </div> <!-- /col-->
+            </div> <!-- /row no-gutters--> 
+         </div> <!-- /card-->
+
+         <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+               <div class="col-md-4">
+                  <img src="./img/san chamuel.jpg" class="card-img" alt="San Gabriel" style="height:245px; object-fit:cover;">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body">
+                     <h5 class="card-title">San Chamuel</h5>
+                     <p class="card-text">Amado Chamuel "La gracia de Dios". Nos ayuda a librarnos del rencor, odio, amarguras, resentimientos. Nos libra de la soledad y fortalece nuestra autoestima.</p>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop2">Oración</button>
+   
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false"
+                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                           <div class="modal-content">
+                              <div class="modal-header bg-success">
+                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Chamuel</h5>
+                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="text-light">X</span>
+                                 </button>
+                              </div>
+                              <div class="modal-body">
+                                 <p class="text-dark text-center">A través de ti siento y conozco el amor de Dios. Lléname de Él, fuente espiritual de la evolución y la experiencia. Enséñame a perdonar y sentirlo para aceptar la tolerancia, la fortaleza y la armonía. Permite que la unión de tu mano y la mía inunde de ese amor a la humanidad guíandonos hacia nuestro Padre Celestial. Estoy lleno de ese amor que transmite felicidad, salud y belleza. Siento de Él la alegría que acompaña el bienestar y abundancia. Es lo que "Dios" ha creado y al sentirlo así tu presencia me acompaña para recibir la bendición angelical. Gracias. Amén.</p>
+                              </div>
+                              <div class="modal-footer bg-warning">
+                                 <p class="text-dark">3 Padrenuestros, 3 Avemarías, 1 Gloria.</p>
+                              </div>
+                           </div>
+                        </div> <!-- /modal-dialog -->
+                     </div> <!-- /modal fade -->
+                  </div> <!-- /card-body -->
+               </div> <!-- /col-->
+            </div> <!-- /row no-gutters--> 
+         </div> <!-- /card-->
+      </div> <!-- /row -->
+
+      
+
+   </div> <!-- /Container-->
 
 
 
