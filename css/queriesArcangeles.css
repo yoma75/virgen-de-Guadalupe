@@ -5,6 +5,7 @@
 
     .card {
         border: none !important;
+        margin: 13px;
     }
 }
 
