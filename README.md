@@ -1,8 +1,9 @@
-# Virgen-de-Guadalupe
+# virgen-de-Guadalupe
 rosario, salmos y oraciones
-(bootstrap4 - css y html)
+Creado en Bootstrap
 
-![vg1](https://user-images.githubusercontent.com/60888517/91227828-cfba8800-e6ec-11ea-803b-9a5612139334.JPG)
-![vg2](https://user-images.githubusercontent.com/60888517/91227835-d34e0f00-e6ec-11ea-96b7-b94d4f662d41.JPG)
-![vg3](https://user-images.githubusercontent.com/60888517/91227846-d648ff80-e6ec-11ea-89ae-f28aa269abf9.JPG)
-![vg4](https://user-images.githubusercontent.com/60888517/91227852-d943f000-e6ec-11ea-9cc7-6f07abaaca77.JPG)
+![v1](https://user-images.githubusercontent.com/60888517/99618671-c4c37b00-29ef-11eb-91e5-28b9bcc0e131.png)
+![v1-1](https://user-images.githubusercontent.com/60888517/99618689-cc831f80-29ef-11eb-81ca-30efb12d1393.png)
+![v2](https://user-images.githubusercontent.com/60888517/99618697-d2790080-29ef-11eb-8d3d-449d865e9744.png)
+![v3](https://user-images.githubusercontent.com/60888517/99618741-f0defc00-29ef-11eb-8206-5c3ac6f46daa.png)
+![v4](https://user-images.githubusercontent.com/60888517/99618746-f50b1980-29ef-11eb-9825-a6e0b81fc5e2.png)

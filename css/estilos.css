@@ -29,8 +29,8 @@
 
 /* Color negro body */
 body {
-    background-color: black;
-    color: white;
+    background-color: rgb(14, 13, 13);
+    color: #fff;
 }
 
 .negro {
