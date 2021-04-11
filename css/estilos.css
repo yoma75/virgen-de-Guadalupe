@@ -4,6 +4,10 @@
 @import url(queriesArcangeles.css);
 
 
+.text-white {
+    color: rgb(231, 231, 231) !important;
+}
+
 /* Logo -------------------------------------- */
 .rosa img {
     width: 60px;
@@ -30,7 +34,7 @@
 /* Color negro body */
 body {
     background-color: rgb(14, 13, 13);
-    color: #fff;
+    color: rgb(231, 231, 231);
 }
 
 .negro {
