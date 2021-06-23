@@ -1,564 +1,888 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
-    <title>Virgen - Oraciones</title>
-    <link rel="shortcut icon" href="img/sol.png">
-    <link rel="stylesheet" href="css/estilos.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <title>Virgen - Oraciones</title>
+  <link rel="shortcut icon" href="img/rosario.png">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
-        <div class="container rosa">
-          <a class="navbar-brand" href="index.html"><img src="img/rosa.png" alt="rosa" title="inicio"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto font-weight-bold">
-              <a class="nav-item nav-link active" href="rosario.html">Rosario</a>
-              <a class="nav-item nav-link" href="salmos.html">Salmos</a>
-              <a class="nav-item nav-link" href="arcangeles.html">Arcángeles</a>                    
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+    <div class="container rosa">
+      <a class="navbar-brand" href="index.html"><img src="img/rosa.png" alt="rosa" title="inicio"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto font-weight-bold">
+          <a class="nav-item nav-link active" href="rosario.html">Rosario</a>
+          <a class="nav-item nav-link" href="salmos.html">Salmos</a>
+          <a class="nav-item nav-link" href="arcangeles.html">Arcángeles</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Acordeón -->
+  <div class="container mt-4 mb-5">
+    <h3 class="mb-4 text-center text-warning">Oraciones:</h3>
+    <div class="accordion" id="accordionExample">
+      <div class="card bg-warning">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              1. Al Espíritu Santo
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Espíritu Santo de Dios, perfecciona la obra de Jesús ha comenzado en cada uno de nosotros. Aligera para
+              todos el tiempo de una vida llena de tu Espíritu. Queremos ser sencillos, llenos de amor de Dios y
+              constantemente generosos. Haz que ninguna fuerza humana nos impida dar testimonio valiente de nuestra
+              vocación cristiana. Que ningún interés de parte nuestra o por nuestra falta de interés, nos haga ir contra
+              la justicia, que ningún egoísmo reduzca en nosotros los espacios del amor. Que la efusión de tu Espíritu
+              de amor, Señor, venga de todos, sobre la iglesia y sobre el mundo entero, para estar en una continua
+              renovación. Amén.</p>
           </div>
         </div>
-      </nav>
-
-    <!-- Acordeón -->
-    <div class="container mt-4 mb-5">
-        <h3 class="mb-4 text-center text-warning">Oraciones:</h3>
-        <div class="accordion" id="accordionExample">
-            <div class="card bg-warning">
-                <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            1. Al Espíritu Santo
-                        </button>
-                    </h2>
-                </div>
-        
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Espíritu Santo de Dios, perfecciona la obra de Jesús ha comenzado en cada uno de nosotros. Aligera para todos el tiempo de una vida llena de tu Espíritu. Queremos ser sencillos, llenos de amor de Dios y constantemente generosos. Haz que ninguna fuerza humana nos impida dar testimonio valiente de nuestra vocación cristiana. Que ningún interés de parte nuestra o por nuestra falta de interés, nos haga ir contra la justicia, que ningún egoísmo reduzca en nosotros los espacios del amor. Que la efusión de tu Espíritu de amor, Señor, venga de todos, sobre la iglesia y sobre el mundo entero, para estar en una continua renovación. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            2. A la Santísima Virgen
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>¡Oh María, madre de todos los hombres! Bendícenos para que en nuestros hogares sea siempre alabado el nombre de Dios. Bendícenos para que nunca nos falte el pan, el trabajo y el amor. Concédenos cada mañana tu paz y tu alegría, tu serenidad y tu plenitud, para caminar con entusiasmo contigo por la senda de la vida. Ayúdanos asentir la tarea de cada día. Haz que seamos fuertes en el dolor y claros en la decisiones que debemos tomar. Llénanos de fe, esperanza y de caridad, para sentirnos hermanos de nuestros hermanos, para fortalecer a los débiles, confortar a los fatigados y compartir nuestras satisfacciones y alientes a quienes se sienten solos. Oh María, ruega por nosotros. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            3. Al Divino Niño Jesús
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>¡Niño Jesús! Reconocemos en ti el amor de Dios a los hombres, tú nos traes de parte de Dios, la esperanza de la salvación. Te pedimos que nos ayude a descubrir nuestros derechos de hombres, a comprendernos, respetarnos y valorarnos los unos a los otros. ¡Oh dulcísimo Niño Jesús! Tú que bajaste de los cielos hasta tocar nuestra tierra, danos un corazón sensible, libranos de la indiferencia. Haz que seamos capaces de comprometernos y ponernos de parte de los pobres y abandonados que se debaten entre tensiones y conflictos, que seamos generosos con todos. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingFour">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            4. A San José
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>San José esposo de la Virgen María y padre de Jesús de Nazareth, invocamos tu protección sobre todos los hombres y en especial sobre los hogares cristianos. Tú que enseñaste a la Sagrada Familia el temor de Dios y la sabiduría, haz que la fe cristiana sea luz de nuestras mentes, que nuestro amor a Dios y a los demás nos guíe cada día, que la esperanza en el Reino de Dios nos lleve a cumplir nuestros compromisos en el mundo. Que la alegría brille siempre y la paz sea la reina de los hogares con tu presencia. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingFive">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            5. Al Ángel de la guarda
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Ángel de mi guarda mi dulce compañía, no me desampares ni de noche ni de día. Hasta que me pongas en paz y alegría con todos los Santos Jesús, José y Maria. Jesús, José y María corazón del alma mía, dulce corazón de Jesús, dulce corazón de mi eterna salvación. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingSix">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                            6. A San Miguel Arcángel
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Arcángel San Miguel defiéndenos en la lucha y ampáranos contra la perversidad y las asechanzas. Tú, príncipe de la milicia celestial, lanza lejos el mal del demonio y los malos espíritus que rondan el mundo para la perdición de hombres y mujeres. Protégenos arcángel San Miguel, y danos a gozar siempre tu compañía. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingSeven">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                            7. Por el grupo familiar
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor Jesús, tú has querido que la familia sea un lugar de comunión y de paz. Que al estar tú siempre presente en medio de ella, las cargas, dificultades, conflictos, incomprensiones, las rupturas y las divisiones, le sean llevaderas, haz que quienes integran el hogar vivan siempre en paz consigo mismo y con los otros. Bendícela Señor, como testigo de su amor en las penas y en las alegrías. Bendice sus fatigas, su salud y su bienestar. Acompañala siempre en el duro camino de la vida y abre sus puertas a todos los que quieren compartir con ella tu mismo amor. Escucha esta súplica que te presentamos, por intercesión de su Santísima Madre, reina de la familia y reina de la paz. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingEight">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                            8. Por los abuelitos
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor, Dios mío, te damos gracias por la vida de nuestros abuelitos. Tú los has conservado hasta el día de hoy, los has animado en todas las luchas, sus esperanzas y fatigas, y los has llenado de amor y sabiduría. Que tu experiencia nos sirva de ejemplo para construir nuestros hogares, y para seguir siendo familias que aman a Dios y al prójimo, así como ellos han gastado sus fuerzas en la vida, para regalarnos el mundo que hoy tenemos. Bendícelos y dales una ancianidad feliz. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingNine">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                            9. De los esposos
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor, Padre Santo, Dios Omnipotente y eterno; te damos gracias y bendecimos tu santo nombre; tú has creado al hombre y a la mujer, para que el uno sea para el otro ayuda y apoyo. Acuérdate hoy de nosotros. Protégenos y concédenos que nuestro amor sea entrega y don, a imagen de Cristo y de la iglesia. Haz que vivamos juntos largo tiempo, en la alegría y la paz, para que nuestros corazones puedan elevar siempre hacia a ti, por medio de tu Hijo, en el Espíritu Santo, la alabanza y la acción de gracias. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTen">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                            10. Por la madre
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor, Jesús, te agradecemos la vida que hemos recibido de nuestras madres y reconocemos en ellas tu amor y tu ternura. Las madres como María, lo dan todo por sus hijos; ellas están presentes en todos los momentos de nuestra existencia, amándonos, guiándonos, educándonos y sobre todo, enseñándonos a amarte a ti y a nuestros hermanos. Te damos gracias por este don que nos llena de alegría profunda y que nos hace comprender el valor de la vida. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingEleven">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                            11. Por el padre
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Padre Nuestro del cielo, tú eres un Padre, lleno de misericordia y amor, estás siempre cercano a nosotros. Hoy queremos pedirte por el padre que nos dio la vida, que con su trabajo y desvelo nos a ayudado a crecer y a caminar por la vida. Con su ejemplo, nos da a conocer el amor de nuestro Padre-Dios, para que avancemos en la vida unidos como hermanos, hijos de una misma familia. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwelve">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                           12. Por los hijos
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Padre del cielo, estamos preocupados por nuestros hijos, por la educación que debemos darles. Nos han dicho que debemos vivir cerca de ellos y también, saber alejarlos a tiempo, educarlos con fortaleza y amarlos sin imposiciones. Vemos que se nos escapan, Señor, y por eso te los confiamos una vez más, sin renunciar a nuestra misión de padres.  Nuestro amor es nuestra fuerza, por eso mantennos unidos a los dos, para que nuestros hijos vivan también unidos y sean semejantes a nosotros. No permitas que se desvíen. Ensancha nuestros horizontes a fin de que sepamos darles espacio para vivir libres. Que por el afán de ganárnoslos, no seamos cómplices de sus debilidades. Te lo pedimos a ti, fuente de todo amor, que vives y reinas por los siglos de siglos. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingTrece">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseTrece" aria-expanded="false" aria-controls="collapseTrece">
-                            13. De los hijos por los padres
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTrece" class="collapse" aria-labelledby="headingTrece" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>¡Oh Dios, que nos has mandado honrar a padre y madre! Escucha con benevolencia la oración que te dirigimos por ellos. Concédeles, Señor, largos días de vida en la tierra y consérvalos en la salud del cuerpo y del espíritu. Bendice sus fatigas e iniciativas. Dales el ciento por uno por todo aquello que han hecho por mí, inspírales el amor y la práctica de tu santa ley. Haz que un día seamos su apoyo y su consuelo; y que, después de haber gozado de su afecto en la tierra, tengamos la alegría de vivir eternamente con ellos en el cielo. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingCatorce">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseCatorce" aria-expanded="false" aria-controls="collapseCatorce">
-                            14. De la familia en los momentos difíciles
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseCatorce" class="collapse" aria-labelledby="headingCatorce" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor Jesús, tú que viviste en una familia, llena de ternura y de calor humano, mira con bondad a nuestra familia que, en este momento, tiene su gran dificultad. Confiamos que tú nos vas ayudar a solucionar todas las situaciones difíciles para hacer tu voluntad y así poder gozar de la alegría eternamente. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingQuince">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseQuince" aria-expanded="false" aria-controls="collapseQuince">
-                            15. Por los niños
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseQuince" class="collapse" aria-labelledby="headingQuince" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor Jesús, tú que amas la inocencia de los niños, y que fuiste amigo de ellos bendícelos y protegélos siempre. Que encuentren en su hogar la comprensión y el amor necesario para crecer cada día sanos y felices. Que aprendan a amarte como padre y amigo. Derrama bendiciones sobre sus hogares. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingSixteen">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                            16. Por un familiar enfermo
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor, Jesucristo, mira con piedad a (nombre completo de la persona), este ser querido que está enfermo y necesita ser curado en el cuerpo y en el espíritu. Señor, ya vez nuestra situación familiar. Estamos triste porque un ser querido está enfermo de gravedad. Te pedimos por él y por todos los que sufren a su alrededor. Que tu misericordia le devuelva la salud; enséñanos a todos a cumplir tu voluntad. Te pedimos a ti, que nos amas y que vives por los siglos de los siglos. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingSeventeen">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                            17. Para antes de una cirugía
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor, tú eres el dueño de la vida, el médico de las almas y de los cuerpos, en tus manos están todas las cosas y las personas, te encomiendo esta intervención quirúrgica, asiste a los médicos que la practican, a las enfermeras y a todas las personas que colaboran, para que con tu ayuda se dé una buena y pronta recuperación y así obtenga la salud deseada. Por Jesucristo, Nuestro Señor. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingEighteen">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
-                            18. Por el desempleo
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Aleja de mí la pereza y el abatimiento. El mundo está en nuestras manos. Dame un empleo para que estas mismas manos hagan de esta tierra un lugar cada vez más humano por medio de su trabajo. Tú, que fuiste obrero, Señor, ayúdame a conseguir un empleo digno de acuerdo a mis posibilidades, para ganar mi sustento diario y ayudar a construir un mundo donde todos participemos de la alegría y la paz. Señor, hoy quiero pedirte por todos los desempleados, tanto de los campos como de las ciudades. El empleo es un derecho y un deber del hombre; concédenos Señor, que no seamos privados de ese derecho que ennoblece y dignifica la persona. Por Jesucristo, Nuestro Señor. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingNineteen">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
-                            19. Para pedir perdón
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Dios mío, con todo mi corazón, me arrepiento de todo el mal que he hecho y de todo el bien que he dejado de hacer. Con el pecado, te he ofendido a ti, que eres nuestro Padre, y a los hombres, mis hermanos; dame la ayuda de tu gracia para arrepentirme y cambiar. Renueva mi corazón y mi espíritu, llénalo de gracia y de bondad, para darte a conocer a mis hermanos. ¡Perdóname, Señor! Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingVeinte">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseVeinte" aria-expanded="false" aria-controls="collapseVeinte">
-                            20. Para saber perdonar
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseVeinte" class="collapse" aria-labelledby="headingVeinte" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor Jesús, tú que en la cruz perdonaste a quienes te ofendieron e injuriaron, a quienes te causaron tanto dolor. Enséñame a perdonar a quienes me han hecho sufrir. Dame la sabiduría de corazón, para no guardar rencor a mis hermanos y saber perdonar sus errores; que recuerde, Señor, que tengo que perdonar, para que tú me perdones. Ayúdame, Señor a perdonar de corazón a todos los que me han ofendido. Por Jesucristo Nuestro Señor. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingVentiuno">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseVentiuno" aria-expanded="false" aria-controls="collapseVentiuno">
-                            21. De sellamiento
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseVentiuno" class="collapse" aria-labelledby="headingVentiuno" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Yo (tu nombre completo) me coloco a los pies de Jesucristo y me rindo a su Señorío, me ato a su santa voluntad, me amarro con los lazos infinitos de su misericordia, abro mi corazón de par en par para que penetre e invada todo mi ser. En el nombre de nuestro Señor Jesucristo muerto y resucitado yo clamo y reclamo su preciosa sangre sobre mí, sobre mi familia, sobre mis bienes espírituales y materiales. Yo sello mi corazón para que con tu sangre preciosa sea limpiado de odios, resentimientos, temores, angustia, soledad, tristeza, dolor, deseos de venganza, celos, envidias, ansiedades, depresiones y todos los males que aquejan mi cuerpo, mi alma y mi corazón. Yo (tu nombre completo) sello mi espíritu en la sangre preciosa de Jesús. Yo (tu nombre completo) sello mi alma en la sangre preciosa de Jesús. Yo (tu nombre completo) sello mi mente y voluntad en la sangre preciosa de Jesús. Yo (tu nombre completo) sello mi pasado y mi presente en la sangre preciosa de Jesús. Sello con la sangre preciosa de Jesús a mis hijos (nombres completos) para que ante el sello poderoso de la sangre de Jesús huya toda fuerza del mal. Aplico la sangre de Jesús sobre mi casa, los que habitan en ella. Derramo la sangre de Jesús en mi empleo o negocio para que queden sellados y ninguna potencia del maligno pueda hacerme daño. Amen.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingVeintedos">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseVeintedos" aria-expanded="false" aria-controls="collapseVeintedos">
-                            22. Aspiraciones devotisimas
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseVeintedos" class="collapse" aria-labelledby="headingVeintedos" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Alma de Cristo, santifícame. Cuerpo de Cristo sálvame. Sangre de Cristo, embriágame. Agua del costado de Cristo, lávame. Pasión de Cristo, confórtame. Oh buen Jesús. Óyeme. Dentro de tus llagas, escóndeme. No permitas que me aparte de ti. Del enemigo malo, defiendeme. En la hora de mi muerte, llámame y mándame ir a Ti, para que con tus santos te alabe. Por los siglos de los siglos. Amen.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingveintitres">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseveintitres" aria-expanded="false" aria-controls="collapseveintitres">
-                            23. Consagración a la Virgen
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseveintitres" class="collapse" aria-labelledby="headingveintitres" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Oh Señora mía, oh Madre mía, yo me ofrezco enteramente a vos, y en prueba de mi filial afecto os consagro en esta noche mis ojos, mis oídos, mi lengua, mi corazón, en una palabra todo mi ser. Ya que soy todo vuestro. Oh madre de bondad, guardadme y defendedme como cosa y posesión vuestra. Amen.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingVeinticuatro">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseVeinticuatro" aria-expanded="false" aria-controls="collapseVeinticuatro">
-                            24. Antigua oración judía
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseVeinticuatro" class="collapse" aria-labelledby="headingVeinticuatro" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>"A Dios Todopoderoso Señor de Israel, que Miguel este a mí derecha, Gabriel a mí izquierda, Rafael delante de mí, detrás de mi Uriel y por encima de mí la Divina presencia de Dios" Amen.</p>
-                    </div>
-                </div>
-            </div>  
-            <div class="card bg-warning">
-                <div class="card-header" id="headingveinticinco">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseveinticinco" aria-expanded="false" aria-controls="collapseveinticinco">
-                            25. Virgen María de las Mercedes
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseveinticinco" class="collapse" aria-labelledby="headingveinticinco" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Oh, Nuestra Señora de las Mercedes, inmaculada madre de Jesús, querida y comprometida madre de todos, tú que haces posible lo imposible, lava todo el pecado de mi alma para ser digno de servirte, no me desampares y escucha hoy todas mis peticiones. Santísima y gloriosa Virgen María de las Mercedes, señora de los desamparados, protectora de los afligidos y de los cautivos, mi alma se regocija ante tu poder para que puedas brindarme la protección que tanto necesito; por    eso hoy te rezo a ti con mi más profunda devoción para poder encontrar tu misericordia. Pido, oh adorada Madre, que mis plegarias suban hasta el cielo, y que mediante el canto de los ángeles tú y nuestro Salvador puedan escucharlas. Tú que con tu bendición siempre estás dispuesta a proteger a los que nos sentimos más desamparados, otórgame el perdón de todos los pecados por los que ahora me arrepiento. Te suplico con humildad que me des la fuerza espiritual que necesito para que, con tu ayuda, pueda alejarme de cualquier situación de peligro o de aquellas personas que, con malas intenciones, buscan alejarme del camino del Señor para que no pueda cumplir con la palabra. Te imploro, elimines de mi camino todos los obstáculos que se me presenten y que me acompañes siempre, más aún en las situaciones más difíciles. Recibeme, oh Virgen mía, bajo tu amparo y protección, cuida de mí y de los míos como siempre lo has hecho con todos tus hijos, cobíjanos bajo tu sagrado manto para estar a salvo del mal y de los enemigos. Yo te aseguro que mi corazón se rendirá a ti en una completa devoción. Virgen de las Mercedes, concédeme el beneficio de alabarte siempre y la posibilidad de pedir tu intercesión siendo tan solo un humilde cristiano que te honra. Añoro que seas por siempre bendecida y sagrada, que seas guardiana de mis ruegos y no desatiendas mis peticiones. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingVeintiseis">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseVeintiseis" aria-expanded="false" aria-controls="collapseVeintiseis">
-                            26. A las Benditas Almas del Purgatorio
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseVeintiseis" class="collapse" aria-labelledby="headingVeintiseis" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Padre misericordioso, en unión con la iglesia Triunfante en el cielo, te suplico tengas piedad de las almas del purgatorio. Recuerda tu eterno amor por ellas y muéstrales los infinitos méritos de tu amado Hijo. Dignate de librarles de penas y dolores para que pronto gocen de paz y felicidad.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingveintisiete">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseveintisiete" aria-expanded="false" aria-controls="collapseveintisiete">
-                            27. Protección psíquica y estabilidad laboral
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseveintisiete" class="collapse" aria-labelledby="headingveintisiete" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor Dios, Padre clementisimo, poderoso en sabiduría, te ruego humildemente, si es tu voluntad, me concedas por intercesión de tu perfecto coro celestial de Serafines, el amor como energía esencial purificadora. Señor, que tus mas cercanos ángeles me asistan en la inteligencia para la concreción de mis proyectos sobre el basamento espiritual interior de la perseverancia, la fe y el amor. Gloria a ti, Señor. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingVeintiocho">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseVeintiocho" aria-expanded="false" aria-controls="collapseVeintiocho">
-                            28. Ahuyentar de nuestra vida a los enemigos
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseVeintiocho" class="collapse" aria-labelledby="headingVeintiocho" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>!Oh, Dios, que con benevolente providencia nos envía a tus sabios y santos ángeles Querubines, concedenos a través de ellos, representantes del conocimiento divino, que podamos alcanzar la esencia de lo que manifiestas en la tierra y en el cielo. Ayudanos, oh, Padre Celestial a obrar con humildad en tu recto camino y a que tus enviados celestiales alumbren mi corazón, mis palabras y mis pasos en la vida con la sabiduría infinita. Gloria a ti. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingveintinueve">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseveintinueve" aria-expanded="false" aria-controls="collapseveintinueve">
-                            29. Proteger el hogar de las discusiones y brindar protección a los niños pequeños
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseveintinueve" class="collapse" aria-labelledby="headingveintinueve" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Señor, que se haga tu voluntad. !Oh¡, Dios, que con misericordia te dignas prodigarnos los infinitos tesoros de tu amor, concedenos a nosotros tus siervos, por la intercesión de tus Santos ángeles Tronos, la guía en el camino que tienes preparado para cada uno de tus hijos. Dios Todopoderoso, permiteme que tus enviados del cielo, tus ángeles fulgurantes de gran poder, me asistan en mis emprendimientos con perseverancia y que derrame energía vital para cumplir tus designios espirituales y concretos. Gloria a ti, Señor. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingtreinta">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapsetreinta" aria-expanded="false" aria-controls="collapsetreinta">
-                            30. Pedir fuerza espiritual o estar en momentos de crisis existencial
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapsetreinta" class="collapse" aria-labelledby="headingtreinta" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>!Oh¡, piadoso Señor Dios, Majestad de los cielos, confiado en tu misericordia mas que en mis propios merecimientos, si es tu divina voluntad concedeme, por la intercesión de tu celestial Coro de Virtudes, una rápida asistencia en este momento de mi vida. Tú solamente, Dios benevolente y Supremo de la creación. eres el conocedor de la fuerza espiritual necesaria para sobrellevar tus pruebas, purificar mis cualidades, cumplir y resolver tus mandatos. Gloria a ti Padre maravilloso. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingTreintayuno">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseTreintayuno" aria-expanded="false" aria-controls="collapseTreintayuno">
-                            31. Afianzar y encauzar nuevas relaciones afectivas
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTreintayuno" class="collapse" aria-labelledby="headingTreintayuno" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>!Oh¡, Dios de poder inmutable y eterno, Creador de todo en cuanto contiene el cielo y la tierra, pendiente de tu voluntad, te ruego me concedas por la intercesión de tu Coro de Dominaciones, el restablecimiento de mi salud y equilibrio energético. Te imploro, Señor: haz que tu Coro de Dominaciones me acerque a ti y a tus seres del Cielo, que purifique mis culpas y comprenda los mensajes que me envías cada día. !Oh¡, Dios de salvación, Gloria a tu bondad infinita. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingtreintaydos">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapsetreintaydos" aria-expanded="false" aria-controls="collapsetreintaydos">
-                            32. Cuando percibimos energía negativa en nuestro entorno o cuando alguien nos tiene odio
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapsetreintaydos" class="collapse" aria-labelledby="headingtreintaydos" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>!Oh¡, Dios altísimo que derramas piedad y misericordia sobre mi alma, único creador del universo, te ruego humildemente que me escuches, y por la santa intercesión de tu Coro Angélico de las Potestades, benditos guerreros de la luz, me ayudes en el combate contra el adversario, apartando toda confusión de mi mente y potenciando mi fuerza espiritual para vencer la oscuridad. !Oh¡, Dios misericordioso, que las espadas de luz de tus ángeles Potestades me guíen por el recto camino de la Justicia. Gloria a ti. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card bg-warning">
-                <div class="card-header" id="headingTreintaytres">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
-                            data-target="#collapseTreintaytres" aria-expanded="false" aria-controls="collapseTreintaytres">
-                            33. Momento emocional bajo o si la confusión se cierne sobre nuestra vida
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTreintaytres" class="collapse" aria-labelledby="headingTreintaytres" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>¡Señor! Que se haga tu voluntad. ¡Oh! Dios omnisciente, cuya infinita bondad traspasa mis méritos, concedeme, por la intercesión de tu celestial Coro Angélico de Principados, el equilibrio de mi ser interior y mis ciclos de vida. Te suplico, Señor, me bendigas con tu Providencia Divina, y sea acentuada la fortaleza en cada una de mis acciones provenientes de la esencia del amor y el conocimiento de un corazón puro y santo. Gloria a ti Señor, que vives y reinas, por los siglos de los siglos. Amén.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingtreintaycuatro">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapsetreintaycuatro" aria-expanded="false" aria-controls="collapsetreintaycuatro">
-                            34. Para dirigirnos a cualquiera de los arcángeles
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapsetreintaycuatro" class="collapse" aria-labelledby="headingtreintaycuatro" data-parent="#accordionExample">
-                    <div class="card-body text-white text-center">
-                        <p>Santos Arcángeles, ministros de la luz del Señor, han evocado su nombre los mas poderosos para recibir la poderosa intercesión del infinitamente Eterno. Yo también humildemente os pido que seáis mi ejército aliado en el combate, mi defensa férrea ante la tentación mis guardianes en el momento de mi muerte. Santos Arcángeles, siete diamantes creados durante lo increado, manifestados por la gloria de Dios, encarnados en la sal de su santo cuerpo, impulsados en la lluvia infinita del Espíritu Santo, impregnados de la eterna luz del alma divina. Yo también humildemente os pido que seáis mis guías en el camino espiritual mis compañeros en los pasos de la vida. Santos Arcángeles que conocéis el trono del Señor y habéis manifestado el amor perfecto al nombre de Maria, siendo esta Reina de los ángeles, para cobijar con su bondad a la humanidad sufriente. Yo también humildemente os pido que seáis los brazos ejecutores de las principales acciones de Nuestra Señora, madre de todos los perfumes, que seáis el remedio perfecto para que los vaivenes de mi alma no me hagan perder nunca el santo temor de Dios y la santa aceptación de su santa voluntad. Santos Arcángeles, siete príncipes celestiales de la luz de los benditos coros angélicos, conocedores de los diferentes Cielos que conforman el único y verdadero cielo, obradores inexorables de la voluntad de Dios Padre, único, perfecto y Todopoderoso. Interceded por mi y elevad mi pedido de gratitud al Señor y a cada uno de ustedes, para que nunca me abandonéis en la lucha contra aquel que se oculta en las tinieblas, para que las palabras muertas de la confusión nunca puedan dañarme ni apartarme del camino y para que en el momento de mi muerte, junto a Jesús y María Santísima, me ayudéis a reintegrarme con el amor infinito de mi único Padre. Amén.</p>
-                    </div>
-                </div>
-            </div>      
-        </div> <!-- /acordeón -->
-    </div> <!-- /container -->
-
-    <footer>
-        <div class="row text-center mb-2">
-          <div class="col-md-12 bg-primary">
-            <h6 style="padding-top:6px;">Familia YomaColor - 2020.</h>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              2. A la Santísima Virgen
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>¡Oh María, madre de todos los hombres! Bendícenos para que en nuestros hogares sea siempre alabado el
+              nombre de Dios. Bendícenos para que nunca nos falte el pan, el trabajo y el amor. Concédenos cada mañana
+              tu paz y tu alegría, tu serenidad y tu plenitud, para caminar con entusiasmo contigo por la senda de la
+              vida. Ayúdanos asentir la tarea de cada día. Haz que seamos fuertes en el dolor y claros en la decisiones
+              que debemos tomar. Llénanos de fe, esperanza y de caridad, para sentirnos hermanos de nuestros hermanos,
+              para fortalecer a los débiles, confortar a los fatigados y compartir nuestras satisfacciones y alientes a
+              quienes se sienten solos. Oh María, ruega por nosotros. Amén.</p>
           </div>
         </div>
-    </footer>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              3. Al Divino Niño Jesús
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>¡Niño Jesús! Reconocemos en ti el amor de Dios a los hombres, tú nos traes de parte de Dios, la esperanza
+              de la salvación. Te pedimos que nos ayude a descubrir nuestros derechos de hombres, a comprendernos,
+              respetarnos y valorarnos los unos a los otros. ¡Oh dulcísimo Niño Jesús! Tú que bajaste de los cielos
+              hasta tocar nuestra tierra, danos un corazón sensible, libranos de la indiferencia. Haz que seamos capaces
+              de comprometernos y ponernos de parte de los pobres y abandonados que se debaten entre tensiones y
+              conflictos, que seamos generosos con todos. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              4. A San José
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>San José esposo de la Virgen María y padre de Jesús de Nazareth, invocamos tu protección sobre todos los
+              hombres y en especial sobre los hogares cristianos. Tú que enseñaste a la Sagrada Familia el temor de Dios
+              y la sabiduría, haz que la fe cristiana sea luz de nuestras mentes, que nuestro amor a Dios y a los demás
+              nos guíe cada día, que la esperanza en el Reino de Dios nos lleve a cumplir nuestros compromisos en el
+              mundo. Que la alegría brille siempre y la paz sea la reina de los hogares con tu presencia. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              5. Al Ángel de la guarda
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Ángel de mi guarda mi dulce compañía, no me desampares ni de noche ni de día. Hasta que me pongas en paz
+              y alegría con todos los Santos Jesús, José y Maria. Jesús, José y María corazón del alma mía, dulce
+              corazón de Jesús, dulce corazón de mi eterna salvación. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              6. A San Miguel Arcángel
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Arcángel San Miguel defiéndenos en la lucha y ampáranos contra la perversidad y las asechanzas. Tú,
+              príncipe de la milicia celestial, lanza lejos el mal del demonio y los malos espíritus que rondan el mundo
+              para la perdición de hombres y mujeres. Protégenos arcángel San Miguel, y danos a gozar siempre tu
+              compañía. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingSeven">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              7. Por el grupo familiar
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor Jesús, tú has querido que la familia sea un lugar de comunión y de paz. Que al estar tú siempre
+              presente en medio de ella, las cargas, dificultades, conflictos, incomprensiones, las rupturas y las
+              divisiones, le sean llevaderas, haz que quienes integran el hogar vivan siempre en paz consigo mismo y con
+              los otros. Bendícela Señor, como testigo de su amor en las penas y en las alegrías. Bendice sus fatigas,
+              su salud y su bienestar. Acompañala siempre en el duro camino de la vida y abre sus puertas a todos los
+              que quieren compartir con ella tu mismo amor. Escucha esta súplica que te presentamos, por intercesión de
+              su Santísima Madre, reina de la familia y reina de la paz. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingEight">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              8. Por los abuelitos
+            </button>
+          </h2>
+        </div>
+        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor, Dios mío, te damos gracias por la vida de nuestros abuelitos. Tú los has conservado hasta el día
+              de hoy, los has animado en todas las luchas, sus esperanzas y fatigas, y los has llenado de amor y
+              sabiduría. Que tu experiencia nos sirva de ejemplo para construir nuestros hogares, y para seguir siendo
+              familias que aman a Dios y al prójimo, así como ellos han gastado sus fuerzas en la vida, para regalarnos
+              el mundo que hoy tenemos. Bendícelos y dales una ancianidad feliz. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingNine">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              9. De los esposos
+            </button>
+          </h2>
+        </div>
+        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor, Padre Santo, Dios Omnipotente y eterno; te damos gracias y bendecimos tu santo nombre; tú has
+              creado al hombre y a la mujer, para que el uno sea para el otro ayuda y apoyo. Acuérdate hoy de nosotros.
+              Protégenos y concédenos que nuestro amor sea entrega y don, a imagen de Cristo y de la iglesia. Haz que
+              vivamos juntos largo tiempo, en la alegría y la paz, para que nuestros corazones puedan elevar siempre
+              hacia a ti, por medio de tu Hijo, en el Espíritu Santo, la alabanza y la acción de gracias. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTen">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              10. Por la madre
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor, Jesús, te agradecemos la vida que hemos recibido de nuestras madres y reconocemos en ellas tu amor
+              y tu ternura. Las madres como María, lo dan todo por sus hijos; ellas están presentes en todos los
+              momentos de nuestra existencia, amándonos, guiándonos, educándonos y sobre todo, enseñándonos a amarte a
+              ti y a nuestros hermanos. Te damos gracias por este don que nos llena de alegría profunda y que nos hace
+              comprender el valor de la vida. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingEleven">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+              11. Por el padre
+            </button>
+          </h2>
+        </div>
+        <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Padre Nuestro del cielo, tú eres un Padre, lleno de misericordia y amor, estás siempre cercano a
+              nosotros. Hoy queremos pedirte por el padre que nos dio la vida, que con su trabajo y desvelo nos a
+              ayudado a crecer y a caminar por la vida. Con su ejemplo, nos da a conocer el amor de nuestro Padre-Dios,
+              para que avancemos en la vida unidos como hermanos, hijos de una misma familia. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwelve">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+              12. Por los hijos
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Padre del cielo, estamos preocupados por nuestros hijos, por la educación que debemos darles. Nos han
+              dicho que debemos vivir cerca de ellos y también, saber alejarlos a tiempo, educarlos con fortaleza y
+              amarlos sin imposiciones. Vemos que se nos escapan, Señor, y por eso te los confiamos una vez más, sin
+              renunciar a nuestra misión de padres. Nuestro amor es nuestra fuerza, por eso mantennos unidos a los dos,
+              para que nuestros hijos vivan también unidos y sean semejantes a nosotros. No permitas que se desvíen.
+              Ensancha nuestros horizontes a fin de que sepamos darles espacio para vivir libres. Que por el afán de
+              ganárnoslos, no seamos cómplices de sus debilidades. Te lo pedimos a ti, fuente de todo amor, que vives y
+              reinas por los siglos de siglos. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingTrece">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseTrece" aria-expanded="false" aria-controls="collapseTrece">
+              13. De los hijos por los padres
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTrece" class="collapse" aria-labelledby="headingTrece" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>¡Oh Dios, que nos has mandado honrar a padre y madre! Escucha con benevolencia la oración que te
+              dirigimos por ellos. Concédeles, Señor, largos días de vida en la tierra y consérvalos en la salud del
+              cuerpo y del espíritu. Bendice sus fatigas e iniciativas. Dales el ciento por uno por todo aquello que han
+              hecho por mí, inspírales el amor y la práctica de tu santa ley. Haz que un día seamos su apoyo y su
+              consuelo; y que, después de haber gozado de su afecto en la tierra, tengamos la alegría de vivir
+              eternamente con ellos en el cielo. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingCatorce">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseCatorce" aria-expanded="false" aria-controls="collapseCatorce">
+              14. De la familia en los momentos difíciles
+            </button>
+          </h2>
+        </div>
+        <div id="collapseCatorce" class="collapse" aria-labelledby="headingCatorce" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor Jesús, tú que viviste en una familia, llena de ternura y de calor humano, mira con bondad a nuestra
+              familia que, en este momento, tiene su gran dificultad. Confiamos que tú nos vas ayudar a solucionar todas
+              las situaciones difíciles para hacer tu voluntad y así poder gozar de la alegría eternamente. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingQuince">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseQuince" aria-expanded="false" aria-controls="collapseQuince">
+              15. Por los niños
+            </button>
+          </h2>
+        </div>
+        <div id="collapseQuince" class="collapse" aria-labelledby="headingQuince" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor Jesús, tú que amas la inocencia de los niños, y que fuiste amigo de ellos bendícelos y protegélos
+              siempre. Que encuentren en su hogar la comprensión y el amor necesario para crecer cada día sanos y
+              felices. Que aprendan a amarte como padre y amigo. Derrama bendiciones sobre sus hogares. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingSixteen">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+              16. Por un familiar enfermo
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor, Jesucristo, mira con piedad a (nombre completo de la persona), este ser querido que está enfermo y
+              necesita ser curado en el cuerpo y en el espíritu. Señor, ya vez nuestra situación familiar. Estamos
+              triste porque un ser querido está enfermo de gravedad. Te pedimos por él y por todos los que sufren a su
+              alrededor. Que tu misericordia le devuelva la salud; enséñanos a todos a cumplir tu voluntad. Te pedimos a
+              ti, que nos amas y que vives por los siglos de los siglos. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingSeventeen">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+              17. Para antes de una cirugía
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor, tú eres el dueño de la vida, el médico de las almas y de los cuerpos, en tus manos están todas las
+              cosas y las personas, te encomiendo esta intervención quirúrgica, asiste a los médicos que la practican, a
+              las enfermeras y a todas las personas que colaboran, para que con tu ayuda se dé una buena y pronta
+              recuperación y así obtenga la salud deseada. Por Jesucristo, Nuestro Señor. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingEighteen">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+              18. Por el desempleo
+            </button>
+          </h2>
+        </div>
+        <div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Aleja de mí la pereza y el abatimiento. El mundo está en nuestras manos. Dame un empleo para que estas
+              mismas manos hagan de esta tierra un lugar cada vez más humano por medio de su trabajo. Tú, que fuiste
+              obrero, Señor, ayúdame a conseguir un empleo digno de acuerdo a mis posibilidades, para ganar mi sustento
+              diario y ayudar a construir un mundo donde todos participemos de la alegría y la paz. Señor, hoy quiero
+              pedirte por todos los desempleados, tanto de los campos como de las ciudades. El empleo es un derecho y un
+              deber del hombre; concédenos Señor, que no seamos privados de ese derecho que ennoblece y dignifica la
+              persona. Por Jesucristo, Nuestro Señor. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingNineteen">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+              19. Para pedir perdón
+            </button>
+          </h2>
+        </div>
+        <div id="collapseNineteen" class="collapse" aria-labelledby="headingNineteen" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Dios mío, con todo mi corazón, me arrepiento de todo el mal que he hecho y de todo el bien que he dejado
+              de hacer. Con el pecado, te he ofendido a ti, que eres nuestro Padre, y a los hombres, mis hermanos; dame
+              la ayuda de tu gracia para arrepentirme y cambiar. Renueva mi corazón y mi espíritu, llénalo de gracia y
+              de bondad, para darte a conocer a mis hermanos. ¡Perdóname, Señor! Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingVeinte">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseVeinte" aria-expanded="false" aria-controls="collapseVeinte">
+              20. Para saber perdonar
+            </button>
+          </h2>
+        </div>
+        <div id="collapseVeinte" class="collapse" aria-labelledby="headingVeinte" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor Jesús, tú que en la cruz perdonaste a quienes te ofendieron e injuriaron, a quienes te causaron
+              tanto dolor. Enséñame a perdonar a quienes me han hecho sufrir. Dame la sabiduría de corazón, para no
+              guardar rencor a mis hermanos y saber perdonar sus errores; que recuerde, Señor, que tengo que perdonar,
+              para que tú me perdones. Ayúdame, Señor a perdonar de corazón a todos los que me han ofendido. Por
+              Jesucristo Nuestro Señor. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingVentiuno">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseVentiuno" aria-expanded="false" aria-controls="collapseVentiuno">
+              21. De sellamiento
+            </button>
+          </h2>
+        </div>
+        <div id="collapseVentiuno" class="collapse" aria-labelledby="headingVentiuno" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Yo (tu nombre completo) me coloco a los pies de Jesucristo y me rindo a su Señorío, me ato a su santa
+              voluntad, me amarro con los lazos infinitos de su misericordia, abro mi corazón de par en par para que
+              penetre e invada todo mi ser. En el nombre de nuestro Señor Jesucristo muerto y resucitado yo clamo y
+              reclamo su preciosa sangre sobre mí, sobre mi familia, sobre mis bienes espírituales y materiales. Yo
+              sello mi corazón para que con tu sangre preciosa sea limpiado de odios, resentimientos, temores, angustia,
+              soledad, tristeza, dolor, deseos de venganza, celos, envidias, ansiedades, depresiones y todos los males
+              que aquejan mi cuerpo, mi alma y mi corazón. Yo (tu nombre completo) sello mi espíritu en la sangre
+              preciosa de Jesús. Yo (tu nombre completo) sello mi alma en la sangre preciosa de Jesús. Yo (tu nombre
+              completo) sello mi mente y voluntad en la sangre preciosa de Jesús. Yo (tu nombre completo) sello mi
+              pasado y mi presente en la sangre preciosa de Jesús. Sello con la sangre preciosa de Jesús a mis hijos
+              (nombres completos) para que ante el sello poderoso de la sangre de Jesús huya toda fuerza del mal. Aplico
+              la sangre de Jesús sobre mi casa, los que habitan en ella. Derramo la sangre de Jesús en mi empleo o
+              negocio para que queden sellados y ninguna potencia del maligno pueda hacerme daño. Amen.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingVeintedos">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseVeintedos" aria-expanded="false" aria-controls="collapseVeintedos">
+              22. Aspiraciones devotisimas
+            </button>
+          </h2>
+        </div>
+        <div id="collapseVeintedos" class="collapse" aria-labelledby="headingVeintedos" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Alma de Cristo, santifícame. Cuerpo de Cristo sálvame. Sangre de Cristo, embriágame. Agua del costado de
+              Cristo, lávame. Pasión de Cristo, confórtame. Oh buen Jesús. Óyeme. Dentro de tus llagas, escóndeme. No
+              permitas que me aparte de ti. Del enemigo malo, defiendeme. En la hora de mi muerte, llámame y mándame ir
+              a Ti, para que con tus santos te alabe. Por los siglos de los siglos. Amen.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingveintitres">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseveintitres" aria-expanded="false" aria-controls="collapseveintitres">
+              23. Consagración a la Virgen
+            </button>
+          </h2>
+        </div>
+        <div id="collapseveintitres" class="collapse" aria-labelledby="headingveintitres"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Oh Señora mía, oh Madre mía, yo me ofrezco enteramente a vos, y en prueba de mi filial afecto os consagro
+              en esta noche mis ojos, mis oídos, mi lengua, mi corazón, en una palabra todo mi ser. Ya que soy todo
+              vuestro. Oh madre de bondad, guardadme y defendedme como cosa y posesión vuestra. Amen.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingVeinticuatro">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseVeinticuatro" aria-expanded="false" aria-controls="collapseVeinticuatro">
+              24. Antigua oración judía
+            </button>
+          </h2>
+        </div>
+        <div id="collapseVeinticuatro" class="collapse" aria-labelledby="headingVeinticuatro"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>"A Dios Todopoderoso Señor de Israel, que Miguel este a mí derecha, Gabriel a mí izquierda, Rafael
+              delante de mí, detrás de mi Uriel y por encima de mí la Divina presencia de Dios" Amen.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingveinticinco">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseveinticinco" aria-expanded="false" aria-controls="collapseveinticinco">
+              25. Virgen María de las Mercedes
+            </button>
+          </h2>
+        </div>
+        <div id="collapseveinticinco" class="collapse" aria-labelledby="headingveinticinco"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Oh, Nuestra Señora de las Mercedes, inmaculada madre de Jesús, querida y comprometida madre de todos, tú
+              que haces posible lo imposible, lava todo el pecado de mi alma para ser digno de servirte, no me
+              desampares y escucha hoy todas mis peticiones. Santísima y gloriosa Virgen María de las Mercedes, señora
+              de los desamparados, protectora de los afligidos y de los cautivos, mi alma se regocija ante tu poder para
+              que puedas brindarme la protección que tanto necesito; por eso hoy te rezo a ti con mi más profunda
+              devoción para poder encontrar tu misericordia. Pido, oh adorada Madre, que mis plegarias suban hasta el
+              cielo, y que mediante el canto de los ángeles tú y nuestro Salvador puedan escucharlas. Tú que con tu
+              bendición siempre estás dispuesta a proteger a los que nos sentimos más desamparados, otórgame el perdón
+              de todos los pecados por los que ahora me arrepiento. Te suplico con humildad que me des la fuerza
+              espiritual que necesito para que, con tu ayuda, pueda alejarme de cualquier situación de peligro o de
+              aquellas personas que, con malas intenciones, buscan alejarme del camino del Señor para que no pueda
+              cumplir con la palabra. Te imploro, elimines de mi camino todos los obstáculos que se me presenten y que
+              me acompañes siempre, más aún en las situaciones más difíciles. Recibeme, oh Virgen mía, bajo tu amparo y
+              protección, cuida de mí y de los míos como siempre lo has hecho con todos tus hijos, cobíjanos bajo tu
+              sagrado manto para estar a salvo del mal y de los enemigos. Yo te aseguro que mi corazón se rendirá a ti
+              en una completa devoción. Virgen de las Mercedes, concédeme el beneficio de alabarte siempre y la
+              posibilidad de pedir tu intercesión siendo tan solo un humilde cristiano que te honra. Añoro que seas por
+              siempre bendecida y sagrada, que seas guardiana de mis ruegos y no desatiendas mis peticiones. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingVeintiseis">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseVeintiseis" aria-expanded="false" aria-controls="collapseVeintiseis">
+              26. A las Benditas Almas del Purgatorio
+            </button>
+          </h2>
+        </div>
+        <div id="collapseVeintiseis" class="collapse" aria-labelledby="headingVeintiseis"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Padre misericordioso, en unión con la iglesia Triunfante en el cielo, te suplico tengas piedad de las
+              almas del purgatorio. Recuerda tu eterno amor por ellas y muéstrales los infinitos méritos de tu amado
+              Hijo. Dignate de librarles de penas y dolores para que pronto gocen de paz y felicidad.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingveintisiete">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseveintisiete" aria-expanded="false" aria-controls="collapseveintisiete">
+              27. Protección psíquica y estabilidad laboral
+            </button>
+          </h2>
+        </div>
+        <div id="collapseveintisiete" class="collapse" aria-labelledby="headingveintisiete"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor Dios, Padre clementisimo, poderoso en sabiduría, te ruego humildemente, si es tu voluntad, me
+              concedas por intercesión de tu perfecto coro celestial de Serafines, el amor como energía esencial
+              purificadora. Señor, que tus mas cercanos ángeles me asistan en la inteligencia para la concreción de mis
+              proyectos sobre el basamento espiritual interior de la perseverancia, la fe y el amor. Gloria a ti, Señor.
+              Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingVeintiocho">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapseVeintiocho" aria-expanded="false" aria-controls="collapseVeintiocho">
+              28. Ahuyentar de nuestra vida a los enemigos
+            </button>
+          </h2>
+        </div>
+        <div id="collapseVeintiocho" class="collapse" aria-labelledby="headingVeintiocho"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>!Oh, Dios, que con benevolente providencia nos envía a tus sabios y santos ángeles Querubines, concedenos
+              a través de ellos, representantes del conocimiento divino, que podamos alcanzar la esencia de lo que
+              manifiestas en la tierra y en el cielo. Ayudanos, oh, Padre Celestial a obrar con humildad en tu recto
+              camino y a que tus enviados celestiales alumbren mi corazón, mis palabras y mis pasos en la vida con la
+              sabiduría infinita. Gloria a ti. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingveintinueve">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseveintinueve" aria-expanded="false" aria-controls="collapseveintinueve">
+              29. Proteger el hogar de las discusiones y brindar protección a los niños pequeños
+            </button>
+          </h2>
+        </div>
+        <div id="collapseveintinueve" class="collapse" aria-labelledby="headingveintinueve"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor, que se haga tu voluntad. !Oh¡, Dios, que con misericordia te dignas prodigarnos los infinitos
+              tesoros de tu amor, concedenos a nosotros tus siervos, por la intercesión de tus Santos ángeles Tronos, la
+              guía en el camino que tienes preparado para cada uno de tus hijos. Dios Todopoderoso, permiteme que tus
+              enviados del cielo, tus ángeles fulgurantes de gran poder, me asistan en mis emprendimientos con
+              perseverancia y que derrame energía vital para cumplir tus designios espirituales y concretos. Gloria a
+              ti, Señor. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingtreinta">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapsetreinta" aria-expanded="false" aria-controls="collapsetreinta">
+              30. Pedir fuerza espiritual o estar en momentos de crisis existencial
+            </button>
+          </h2>
+        </div>
+        <div id="collapsetreinta" class="collapse" aria-labelledby="headingtreinta" data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>!Oh¡, piadoso Señor Dios, Majestad de los cielos, confiado en tu misericordia mas que en mis propios
+              merecimientos, si es tu divina voluntad concedeme, por la intercesión de tu celestial Coro de Virtudes,
+              una rápida asistencia en este momento de mi vida. Tú solamente, Dios benevolente y Supremo de la creación.
+              eres el conocedor de la fuerza espiritual necesaria para sobrellevar tus pruebas, purificar mis
+              cualidades, cumplir y resolver tus mandatos. Gloria a ti Padre maravilloso. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingTreintayuno">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseTreintayuno" aria-expanded="false" aria-controls="collapseTreintayuno">
+              31. Afianzar y encauzar nuevas relaciones afectivas
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTreintayuno" class="collapse" aria-labelledby="headingTreintayuno"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>!Oh¡, Dios de poder inmutable y eterno, Creador de todo en cuanto contiene el cielo y la tierra,
+              pendiente de tu voluntad, te ruego me concedas por la intercesión de tu Coro de Dominaciones, el
+              restablecimiento de mi salud y equilibrio energético. Te imploro, Señor: haz que tu Coro de Dominaciones
+              me acerque a ti y a tus seres del Cielo, que purifique mis culpas y comprenda los mensajes que me envías
+              cada día. !Oh¡, Dios de salvación, Gloria a tu bondad infinita. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingtreintaydos">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapsetreintaydos" aria-expanded="false" aria-controls="collapsetreintaydos">
+              32. Cuando percibimos energía negativa en nuestro entorno o cuando alguien nos tiene odio
+            </button>
+          </h2>
+        </div>
+        <div id="collapsetreintaydos" class="collapse" aria-labelledby="headingtreintaydos"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>!Oh¡, Dios altísimo que derramas piedad y misericordia sobre mi alma, único creador del universo, te
+              ruego humildemente que me escuches, y por la santa intercesión de tu Coro Angélico de las Potestades,
+              benditos guerreros de la luz, me ayudes en el combate contra el adversario, apartando toda confusión de mi
+              mente y potenciando mi fuerza espiritual para vencer la oscuridad. !Oh¡, Dios misericordioso, que las
+              espadas de luz de tus ángeles Potestades me guíen por el recto camino de la Justicia. Gloria a ti. Amén.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingTreintaytres">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapseTreintaytres" aria-expanded="false" aria-controls="collapseTreintaytres">
+              33. Momento emocional bajo o si la confusión se cierne sobre nuestra vida
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTreintaytres" class="collapse" aria-labelledby="headingTreintaytres"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>¡Señor! Que se haga tu voluntad. ¡Oh! Dios omnisciente, cuya infinita bondad traspasa mis méritos,
+              concedeme, por la intercesión de tu celestial Coro Angélico de Principados, el equilibrio de mi ser
+              interior y mis ciclos de vida. Te suplico, Señor, me bendigas con tu Providencia Divina, y sea acentuada
+              la fortaleza en cada una de mis acciones provenientes de la esencia del amor y el conocimiento de un
+              corazón puro y santo. Gloria a ti Señor, que vives y reinas, por los siglos de los siglos. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingtreintaycuatro">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapsetreintaycuatro" aria-expanded="false" aria-controls="collapsetreintaycuatro">
+              34. Para dirigirnos a cualquiera de los arcángeles
+            </button>
+          </h2>
+        </div>
+        <div id="collapsetreintaycuatro" class="collapse" aria-labelledby="headingtreintaycuatro"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Santos Arcángeles, ministros de la luz del Señor, han evocado su nombre los mas poderosos para recibir la
+              poderosa intercesión del infinitamente Eterno. Yo también humildemente os pido que seáis mi ejército
+              aliado en el combate, mi defensa férrea ante la tentación mis guardianes en el momento de mi muerte.
+              Santos Arcángeles, siete diamantes creados durante lo increado, manifestados por la gloria de Dios,
+              encarnados en la sal de su santo cuerpo, impulsados en la lluvia infinita del Espíritu Santo, impregnados
+              de la eterna luz del alma divina. Yo también humildemente os pido que seáis mis guías en el camino
+              espiritual mis compañeros en los pasos de la vida. Santos Arcángeles que conocéis el trono del Señor y
+              habéis manifestado el amor perfecto al nombre de Maria, siendo esta Reina de los ángeles, para cobijar con
+              su bondad a la humanidad sufriente. Yo también humildemente os pido que seáis los brazos ejecutores de las
+              principales acciones de Nuestra Señora, madre de todos los perfumes, que seáis el remedio perfecto para
+              que los vaivenes de mi alma no me hagan perder nunca el santo temor de Dios y la santa aceptación de su
+              santa voluntad. Santos Arcángeles, siete príncipes celestiales de la luz de los benditos coros angélicos,
+              conocedores de los diferentes Cielos que conforman el único y verdadero cielo, obradores inexorables de la
+              voluntad de Dios Padre, único, perfecto y Todopoderoso. Interceded por mi y elevad mi pedido de gratitud
+              al Señor y a cada uno de ustedes, para que nunca me abandonéis en la lucha contra aquel que se oculta en
+              las tinieblas, para que las palabras muertas de la confusión nunca puedan dañarme ni apartarme del camino
+              y para que en el momento de mi muerte, junto a Jesús y María Santísima, me ayudéis a reintegrarme con el
+              amor infinito de mi único Padre. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingtreintaycinco">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapsetreintaycinco" aria-expanded="false" aria-controls="collapsetreintaycinco">
+              35. Para después de la Comunión (Eucarística o Espiritual)
+            </button>
+          </h2>
+        </div>
+        <div id="collapsetreintaycinco" class="collapse" aria-labelledby="headingtreintaycinco"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Jesús, Tu sangre es pura y sana, que Tu sangre pura y sana circule en mi organismo enfermo, Tu cuerpo es puro y sano, que Tu cuerpo transforme mi cuerpo enfermo y me otorguen una vida sana y fuerte, si esa es Tu santa voluntad. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingtreintayseis">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapsetreintayseis" aria-expanded="false" aria-controls="collapsetreintayseis">
+              36. Cura aquello que el hombre no sabe sanar
+            </button>
+          </h2>
+        </div>
+        <div id="collapsetreintayseis" class="collapse" aria-labelledby="headingtreintayseis"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor mío y Dios mío, por tu amor y por tu misericordia sánanos, que somos tus hijos de todas las enfermedades, especialmente de aquellas que la ciencia humana no alcanza a curar. Haz que con tu ayuda conservemos siempre pura nuestra alma de todo pecado. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingtreintaysiete">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapsetreintaysiete" aria-expanded="false" aria-controls="collapsetreintaysiete">
+              37. Médico de cuerpos y de almas
+            </button>
+          </h2>
+        </div>
+        <div id="collapsetreintaysiete" class="collapse" aria-labelledby="headingtreintaysiete"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>¡Oh Cristo, médico de cuerpos y de almas!, vela sobre nuestro hermano (nombre completo de la persona) enfermo y sufriente, y como el Buen Samaritano derrama sobre sus heridas el aceite de la consolación y el vino de la esperanza. Con gracia sanante de tu Espíritu, ilumina la difícil experiencia de la enfermedad y del dolor, para que sobrellevando en el cuerpo y en el alma este mal, se una a todos nosotros en la gracia del Padre de la Misericordia. Tú que vives y reinas por los siglos de los siglos, Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingtreintayocho">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapsetreintayocho" aria-expanded="false" aria-controls="collapsetreintayocho">
+              38. En el sufrimiento
+            </button>
+          </h2>
+        </div>
+        <div id="collapsetreintayocho" class="collapse" aria-labelledby="headingtreintayocho"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>María, madre del Salvador y madre nuestra, tu Santidad Inmaculada no te ha sustraído la espada del dolor, más al pie de la cruz permaneces firme en la fe, has creído al amor del Padre viendo a Tu hijo crucificado. ¡Oh Virgen Dolorosa! a ti te presento confiadamente mis penas, te pido humildemente consolarme a la cruz de Jesús, para que se transforme este sufrimiento en un instrumento de salvación para mi alma y para toda la humanidad. Madre del amor que vences el dolor, ora por mí. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingtreintaynueve">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapsetreintaynueve" aria-expanded="false" aria-controls="collapsetreintaynueve">
+              39. Bendición de las medicinas
+            </button>
+          </h2>
+        </div>
+        <div id="collapsetreintaynueve" class="collapse" aria-labelledby="headingtreintaynueve"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Señor mío, Tú que has dado la inteligencia al hombre para que pueda penetrar los secretos de la naturaleza, bendice te ruego estas medicinas que debo tomar para mi salud, te pido que estas medicinas sirvan para mi bien y que no dejen ninguna consecuencia negativa en mi cuerpo. Te lo pido a ti Señor mío y Dios mío, al cual pertenece el Reino y la Gloria, por los siglos de los siglos, Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingcuarenta">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapsecuarenta" aria-expanded="false" aria-controls="collapsecuarenta">
+              40. A San Benito
+            </button>
+          </h2>
+        </div>
+        <div id="collapsecuarenta" class="collapse" aria-labelledby="headingcuarenta"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Amabilísimo Padre San Benito, en consideración a la bondad conque el Señor se ha dignado beatificaros para sus glorioso fines, os suplicamos que os dignéis hallaros presente a la hora de mi muerte y que llenéis para conmigo todas las promesas que hicisteis a la Virgen Santa Gertrudis. Amén. (Padrenuestro, Avemaría y Gloria).</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingcuarentaYuno">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapsecuarentaYuno" aria-expanded="false" aria-controls="collapsecuarentaYuno">
+              41. Salvar 1.000 almas del purgatorio
+            </button>
+          </h2>
+        </div>
+        <div id="collapsecuarentaYuno" class="collapse" aria-labelledby="headingcuarentaYuno"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p class="text-warning">Oración de Santa Gertrudis la Grande</p>
+            <p>Padre eterno, yo te ofrezco la preciosisima sangre de tu Divino Hijo Jesús en unión con las misas celebradas hoy dia a través del mundo por todas las benditas ánimas del purgatorio. Por todos los pecadores del mundo, por los pecadores en la iglesia universal, por aquellos en propia casa y dentro de mi familia. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingcuarentaYdos">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+              data-target="#collapsecuarentaYdos" aria-expanded="false" aria-controls="collapsecuarentaYdos">
+              42. A la mano poderosa
+            </button>
+          </h2>
+        </div>
+        <div id="collapsecuarentaYdos" class="collapse" aria-labelledby="headingcuarentaYdos"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p>Casa de Jerusalén donde Cristo entró y el mal apunto salió, entrando a la vez el bien, yo pido a Jesús: que el mal se vaya de (nombre completo de la persona) y venga el bien y curación para él/ella por esta santa oración y por Cristo Nuestro Señor. Amén.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-header" id="headingcuarentaYtres">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed text-dark" type="button" data-toggle="collapse"
+              data-target="#collapsecuarentaYtres" aria-expanded="false" aria-controls="collapsecuarentaYtres">
+              43. Para protección y volverse invisible
+            </button>
+          </h2>
+        </div>
+        <div id="collapsecuarentaYtres" class="collapse" aria-labelledby="headingcuarentaYtres"
+          data-parent="#accordionExample">
+          <div class="card-body text-white text-center">
+            <p><small class="text-warning">Frente a la estampa de la mano poderosa recitar:</small></p>
+            <p>Mano poderosa de Cristo líbrame de todo mal; y de mis contrarios por ser muchos. Donde quiera que vaya la Mano de Dios me lleve, la de la Virgen me guíe, la de mi padre San Pedro por delante y por medio, la de mi padre San Blas por detrás. Ojos tenga y no me vean. Pies tenga que no me alcancen, manos tengan que no me toquen. Tan invisible sea yo en medio de mis enemigos que mi cuerpo no sea preso, ni muerto. Amén.</p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /acordeón -->
+  </div> <!-- /container -->
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
+  <footer>
+    <div class="row text-center mb-2">
+      <div class="col-md-12 bg-primary">
+        <h6 style="padding-top:6px;">Familia YomaColor - 2020.</h>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>
+

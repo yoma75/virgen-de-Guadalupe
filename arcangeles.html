@@ -1,372 +1,432 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-   <link rel="shortcut icon" type="image/png" href="img/rosario.png">
-   <link rel="stylesheet" href="css/estilos.css">
-   <title>Arcángeles</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="shortcut icon" type="image/png" href="img/rosario.png">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Arcángeles</title>
 </head>
+
 <body>
-    
-   <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
-      <div class="container rosa">
-         <a class="navbar-brand" href="index.html"><img src="img/rosa.png" alt="rosa" title="inicio"></a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
-            <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto font-weight-bold">
-               <a class="nav-item nav-link active" href="rosario.html">Rosario</a>
-               <a class="nav-item nav-link" href="salmos.html">Salmos</a>
-               <a class="nav-item nav-link" href="oraciones.html">Oraciones</a>                  
-            </div>
-         </div>
-      </div>
-   </nav>
 
-   <div class="container">      
-      <div class="col">
-         <h3 class="mb-4 mt-4 text-center text-warning">Arcángeles:</h3>
-      </div>
-      
-      <div class="row">
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-               <div class="col-md-4" id="imagEdicion">
-                  <img src="./img/san gabriel.jpg" class="card-img" alt="San Gabriel">
-               </div>
-               <div class="col-md-8">
-                  <div class="card-body">
-                     <h5 class="card-title">San Gabriel</h5>
-                     <p class="card-text">Amado Gabriel "Cristo vive en mi". Nos ayuda para las depresiones, apacigua a las personas enojadas, nos provee de cambios provechosos y aleja la falsedad.</p>
-                     <p class="card-text">Día: miércoles, vela blanca.</p>
-                     <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">Oración</button>
-   
-                     <!-- Modal -->
-                     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
-                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                           <div class="modal-content">
-                              <div class="modal-header bg-primary">
-                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Gabriel</h5>
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="text-light">X</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <p class="text-dark text-center">Me regocijo en tu manto de amor, del que fluye libremente la vida de Dios.Al cerrar mis ojos todo es paz, benevolencia y comprensión, cubriéndome de lo invisible e invencible que emana de la comprensión que simbolizas. Tu blanca luz ilumina todos los senderos que conducen al  nacimiento de todo. Bajo tus alas la seguridad que me das permite la presencia de Cristo en mí. Gracias. Amén.</p>
-                              </div>
-                              <div class="modal-footer bg-warning">
-                                 <p class="text-dark">3 Padrenuestros,</p>
-                                 <p class="text-dark">3 Avemarías, 1 Gloria.</p>   
-                              </div>
-                           </div>
-                        </div> <!-- /modal-dialog -->
-                     </div> <!-- /modal fade -->
-                  </div> <!-- /card-body -->
-               </div> <!-- /col-->
-            </div> <!-- /row no-gutters--> 
-         </div> <!-- /card-->
-
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-               <div class="col-md-4" id="imagEdicion">
-                  <img src="./img/san chamuel1.jpg" class="card-img" alt="San Gabriel">
-               </div>
-               <div class="col-md-8">
-                  <div class="card-body">
-                     <h5 class="card-title">San Chamuel</h5>
-                     <p class="card-text">Amado Chamuel "La gracia de Dios". Nos ayuda a librarnos del rencor, odio, amarguras, resentimientos. Nos libra de la soledad y fortalece nuestra autoestima.</p>
-                     <p class="card-text">Día: martes, vela rosada.</p>
-                     <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop2">Oración</button>
-   
-                     <!-- Modal -->
-                     <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false"
-                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                           <div class="modal-content">
-                              <div class="modal-header bg-success">
-                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Chamuel</h5>
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="text-light">X</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <p class="text-dark text-center">A través de ti siento y conozco el amor de Dios. Lléname de Él, fuente espiritual de la evolución y la experiencia. Enséñame a perdonar y sentirlo para aceptar la tolerancia, la fortaleza y la armonía. Permite que la unión de tu mano y la mía inunde de ese amor a la humanidad guiándonos hacia nuestro Padre Celestial. Estoy lleno de ese amor que transmite felicidad, salud y belleza. Siento de Él la alegría que acompaña el bienestar y abundancia. Es lo que "Dios" ha creado y al sentirlo así tu presencia me acompaña para recibir la bendición angelical. Gracias. Amén.</p>
-                              </div>
-                              <div class="modal-footer bg-warning">
-                                 <p class="text-dark">3 Padrenuestros,</p>
-                                 <p class="text-dark">3 Avemarías, 1 Gloria.</p>                                 
-                              </div>
-                           </div>
-                        </div> <!-- /modal-dialog -->
-                     </div> <!-- /modal fade -->
-                  </div> <!-- /card-body -->
-               </div> <!-- /col-->
-            </div> <!-- /row no-gutters--> 
-         </div> <!-- /card-->
-      </div> <!-- /row -->
-
-      <div class="row">
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-               <div class="col-md-4" id="imagEdicion">
-                  <img src="./img/arcangel jofiel1.jpg" class="card-img" alt="San Gabriel">
-               </div>
-               <div class="col-md-8">
-                  <div class="card-body">
-                     <h5 class="card-title">Arcángel Jofiel</h5>
-                     <p class="card-text">Amado Jofiel "Dios es mi belleza". Permite despertar las almas dormidas. Nos brinda sabiduría divina, iluminación, paz e inteligencia en nuestra vida.</p>
-                     <p class="card-text">Día: lunes, vela amarilla.</p>
-                     <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop3">Oración</button>
-   
-                     <!-- Modal -->
-                     <div class="modal fade" id="staticBackdrop3" data-backdrop="static" data-keyboard="false"
-                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                           <div class="modal-content">
-                              <div class="modal-header bg-info">
-                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a Jofiel</h5>
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="text-light">X</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <p class="text-dark text-center">Con tu amor y tu paz ilumina mi camino, mis sentimientos, ideales, palabras y acciones. Lléname de inteligencia para aprender a aceptar y entender la esencia de la sabiduría divina para llegar a la fuente del amor y la felicidad. Eleva mis aspiraciones, mis estados de conciencia y guíame hacia el crecimiento espiritual para así lograr la total armonía en mi cuerpo, alma y espíritu. Miro hacia mi interior y me lleno de luz y de paz, porque sé que ahora tu iluminarás mi vida. Gracias. Amén.</p>
-                              </div>
-                              <div class="modal-footer bg-warning">
-                                 <p class="text-dark">3 Padrenuestros,</p>
-                                 <p class="text-dark">3 Avemarías, 1 Gloria.</p>   
-                              </div>
-                           </div>
-                        </div> <!-- /modal-dialog -->
-                     </div> <!-- /modal fade -->
-                  </div> <!-- /card-body -->
-               </div> <!-- /col-->
-            </div> <!-- /row no-gutters--> 
-         </div> <!-- /card-->
-
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-               <div class="col-md-4" id="imagEdicion">
-                  <img src="./img/san miguel1.jpg" class="card-img" alt="San Gabriel">
-               </div>
-               <div class="col-md-8">
-                  <div class="card-body">
-                     <h5 class="card-title">San Miguel</h5>
-                     <p class="card-text">Amado San Miguel "¿Quién como Dios?". Nos brinda protección hacia malos espíritus o energías negativas, nos da fuerza, equilibrio, valentía e invisibilidad ante nuestros enemigos.</p>
-                     <p class="card-text">Día: domingo, vela azul.</p>
-                     <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop4">Oración</button>
-   
-                     <!-- Modal -->
-                     <div class="modal fade" id="staticBackdrop4" data-backdrop="static" data-keyboard="false"
-                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                           <div class="modal-content">
-                              <div class="modal-header bg-danger">
-                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Miguel</h5>
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="text-light">X</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <p class="text-dark text-center">Con tu espada corta todas mis ataduras y con tu mano cúbreme y lléname de luz; extermina toda maldad, protégeme y protege a mis seres queridos, mi casa, mi mascota, mis vecinos de todo peligro. Con tu amor todopoderoso enciende nuestros corazones en todo momento para amar más a los otros. Que tu divina presencia conforte mi alma; no tengo temor porque sé estas conmigo. Gracias. Amén.</p>
-                              </div>
-                              <div class="modal-footer bg-warning">
-                                 <p class="text-dark">3 Padrenuestros,</p>
-                                 <p class="text-dark">3 Avemarías, 1 Gloria.</p>                                 
-                              </div>
-                           </div>
-                        </div> <!-- /modal-dialog -->
-                     </div> <!-- /modal fade -->
-                  </div> <!-- /card-body -->
-               </div> <!-- /col-->
-            </div> <!-- /row no-gutters--> 
-         </div> <!-- /card-->
-      </div> <!-- /row -->
-
-      <div class="row">
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-               <div class="col-md-4" id="imagEdicion">
-                  <img src="./img/angel de la guarda1.jpg" class="card-img" alt="San Gabriel">
-               </div>
-               <div class="col-md-8">
-                  <div class="card-body">
-                     <h5 class="card-title">Angel de la Guarda</h5>
-                     <p class="card-text">Es el ángel al que Dios da la misión de protegerme, guardarme y guiarme durante mi vida en la tierra para facilitarme el ascenso al cielo y llevar una vida correcta y fructífera.​</p>
-                     <p class="card-text">Todos los días, vela blanca.</p>
-                     <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop5">Oración</button>
-   
-                     <!-- Modal -->
-                     <div class="modal fade" id="staticBackdrop5" data-backdrop="static" data-keyboard="false"
-                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                           <div class="modal-content">
-                              <div class="modal-header bg-primary">
-                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración al Angel de mi Guarda</h5>
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="text-light">X</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <p class="text-dark text-center">Oh Angel de mi Guarda, permite que el cielo se abra como ahora lo está mi corazón ansioso een busca de la fé más allá de mi presente. Que tu esplendorosa presencia sea mi guía y que pueda percibir a diario tu dulce compañía símbolo del amor de Dios. Fortalece mi espíritu y ayúdame a permanecer en el camino correcto. Oh Angel de mi Guarda, cúbreme con tus alas, ilumina mis acciones, dirige mis pasos y protégeme en este día. Que la misericordia sea conmigo para que la desolación se transforme en la alegría que aleja todos los temores. Camina junto a mi en la crisis, en el dolor, en la fatiga y hazme ascender más en la unión con Dios. Dejáme ser sencillo y sabio y que las oraciones de cada día se mantengan iluminando mi entendimiento para no exponerme a las tentaciones y adversidades. Por favor Angel de mi Guarda; permanece en mi presencia, protégeme, dame paz y felicidad y adora a Dios en mi.Amén.</p>
-                              </div>
-                              <div class="modal-footer bg-warning">
-                                 <p class="text-dark">3 Padrenuestros,</p>
-                                 <p class="text-dark">3 Avemarías, 1 Gloria.</p>   
-                              </div>
-                           </div>
-                        </div> <!-- /modal-dialog -->
-                     </div> <!-- /modal fade -->
-                  </div> <!-- /card-body -->
-               </div> <!-- /col-->
-            </div> <!-- /row no-gutters--> 
-         </div> <!-- /card-->
-
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-               <div class="col-md-4" id="imagEdicion">
-                  <img src="./img/zadquiel1.jpg" class="card-img" alt="San Gabriel">
-               </div>
-               <div class="col-md-8">
-                  <div class="card-body">
-                     <h5 class="card-title">Arcángel Zadquiel</h5>
-                     <p class="card-text">Amado Zadquiel "La Virtud de Dios". Nos permite transmutar nuestros malos hábitos o acciones para así alcanzar la transformación de los mismos para bien y desarrollo espiritual.</p>
-                     <p class="card-text">Día: sábado, vela violeta.</p>
-                     <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop6">Oración</button>
-   
-                     <!-- Modal -->
-                     <div class="modal fade" id="staticBackdrop6" data-backdrop="static" data-keyboard="false"
-                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                           <div class="modal-content">
-                              <div class="modal-header bg-success">
-                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a Zadquiel</h5>
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="text-light">X</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <p class="text-dark text-center">Tu que eres el príncipe de la justicia divina, de la misericordia, del perdón y la liberación, te pido que me envíes con tu presencia la luz necesaria que me conduzca junto a mis seres queridos y toda la humanidad a vivir cada instante en unión y armonía. Que el resplandor violeta que de ti emana transmute todo lo negativo del planeta, de mi país, de mi ciudad, de mi trabajo así como el pensamiento y acción de cada uno de nosotros. Purificare y purificanos para que exista paz, salud, felicidad, abundancia y amor. Gracias. Amén.</p>
-                              </div>
-                              <div class="modal-footer bg-warning">
-                                 <p class="text-dark">3 Padrenuestros,</p>
-                                 <p class="text-dark">3 Avemarías, 1 Gloria.</p>                                 
-                              </div>
-                           </div>
-                        </div> <!-- /modal-dialog -->
-                     </div> <!-- /modal fade -->
-                  </div> <!-- /card-body -->
-               </div> <!-- /col-->
-            </div> <!-- /row no-gutters--> 
-         </div> <!-- /card-->
-      </div> <!-- /row -->
-
-      <div class="row">
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-               <div class="col-md-4" id="imagEdicion">
-                  <img src="./img/arcangel-uriel1.jpg" class="card-img" alt="San Gabriel">
-               </div>
-               <div class="col-md-8">
-                  <div class="card-body">
-                     <h5 class="card-title">Arcángel Uriel</h5>
-                     <p class="card-text">Amado Uriel "Luz de Dios". Nos brinda de riquezas espirituales y materiales, nos da paz interior, alegría, armonía y confianza que hemos perdido. Mejora nuestra economía​.</p>
-                     <p class="card-text">Día: viernes, vela naranja.</p>
-                     <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop7">Oración</button>
-   
-                     <!-- Modal -->
-                     <div class="modal fade" id="staticBackdrop7" data-backdrop="static" data-keyboard="false"
-                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                           <div class="modal-content">
-                              <div class="modal-header bg-info">
-                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a Uriel</h5>
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="text-light">X</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <p class="text-dark text-center">Amorosamente, te pido que fortalezcas mi serenidad y mi paciencia, para así poder ver con claridad, todos los caminos, mis acciones, mis pensamientos. Si tú me diriges, sabré llegar al sendero de luz, a la llama divina. Desde mi corazón siento tu calor y protección; me guías hacia lo mejor, el crecimiento a la abundancia y te agradezco de todo corazón que tu brillo siempre me ayude a solucionar cualquier problema porque sé que tu divina presencia está conmigo. Gracias. Amén.</p>
-                              </div>
-                              <div class="modal-footer bg-warning">
-                                 <p class="text-dark">3 Padrenuestros,</p>
-                                 <p class="text-dark">3 Avemarías, 1 Gloria.</p>   
-                              </div>
-                           </div>
-                        </div> <!-- /modal-dialog -->
-                     </div> <!-- /modal fade -->
-                  </div> <!-- /card-body -->
-               </div> <!-- /col-->
-            </div> <!-- /row no-gutters--> 
-         </div> <!-- /card-->
-
-         <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-               <div class="col-md-4" id="imagEdicion">
-                  <img src="./img/san-rafael.jpg" class="card-img" alt="San Gabriel">
-               </div>
-               <div class="col-md-8">
-                  <div class="card-body">
-                     <h5 class="card-title">Arcángel San Rafael</h5>
-                     <p class="card-text">Amado San Rafael "Curación de Dios". Es el patrón de los viajeros porque con su ayuda, guía en los viajes espirituales en la búsqueda de la verdad y el conocimiento. Nos da salud física.</p>
-                     <p class="card-text">Día: jueves, vela verde.</p>
-                     <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop8">Oración</button>
-                     
-                     <!-- Modal -->
-                     <div class="modal fade" id="staticBackdrop8" data-backdrop="static" data-keyboard="false"
-                          tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                           <div class="modal-content">
-                              <div class="modal-header bg-success">
-                                 <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Rafael</h5>
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true" class="text-light">X</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <p class="text-dark text-center">Envuélveme con tu luz sanadora, con tu luz de la verdad, porque sé que con ella toda cosa, toda palabra se vuelve verdad; mi fe es ilimitada porque a través de ti todo esta sanado mi mente, mi alma, mi cuerpo, mis seres queridos y situaciones. El contacto con tu fuente de sanación me llena de paz, soy perfecto, lleno de vida y bendigo tu luz. Gracias. Amén.</p>
-                              </div>
-                              <div class="modal-footer bg-warning">
-                                 <p class="text-dark">3 Padrenuestros,</p>
-                                 <p class="text-dark">3 Avemarías, 1 Gloria.</p>                                 
-                              </div>
-                           </div>
-                        </div> <!-- /modal-dialog -->
-                     </div> <!-- /modal fade -->
-                  </div> <!-- /card-body -->
-               </div> <!-- /col-->
-            </div> <!-- /row no-gutters--> 
-         </div> <!-- /card-->
-      </div> <!-- /row -->
-   </div> <!-- /Container-->
-
-
-    <footer>
-        <div class="row text-center mb-2">
-          <div class="col-md-12 bg-primary">
-            <h6 style="padding-top:6px;">Familia YomaColor - 2020.</h>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+    <div class="container rosa">
+      <a class="navbar-brand" href="index.html"><img src="img/rosa.png" alt="rosa" title="inicio"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto font-weight-bold">
+          <a class="nav-item nav-link active" href="rosario.html">Rosario</a>
+          <a class="nav-item nav-link" href="salmos.html">Salmos</a>
+          <a class="nav-item nav-link" href="oraciones.html">Oraciones</a>
         </div>
-    </footer>
+      </div>
+    </div>
+  </nav>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="col">
+      <h3 class="mb-4 mt-4 text-center text-warning">Arcángeles:</h3>
+    </div>
+
+    <div class="row">
+      <div class="card mb-3 sombra" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="imagEdicion">
+            <img src="./img/san gabriel.jpg" class="card-img" alt="San Gabriel">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">San Gabriel</h5>
+              <p class="card-text">Amado Gabriel "Cristo vive en mi". Nos ayuda para las depresiones, apacigua a las
+                personas enojadas, nos provee de cambios provechosos y aleja la falsedad.</p>
+              <p class="card-text">Día: miércoles, vela blanca.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#staticBackdrop">Oración</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                      <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Gabriel</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">X</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark text-center">Me regocijo en tu manto de amor, del que fluye libremente la vida
+                        de Dios.Al cerrar mis ojos todo es paz, benevolencia y comprensión, cubriéndome de lo invisible
+                        e invencible que emana de la comprensión que simbolizas. Tu blanca luz ilumina todos los
+                        senderos que conducen al nacimiento de todo. Bajo tus alas la seguridad que me das permite la
+                        presencia de Cristo en mí. Gracias. Amén.</p>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <p class="text-dark">3 Padrenuestros,</p>
+                      <p class="text-dark">3 Avemarías, 1 Gloria.</p>
+                    </div>
+                  </div>
+                </div> <!-- /modal-dialog -->
+              </div> <!-- /modal fade -->
+            </div> <!-- /card-body -->
+          </div> <!-- /col-->
+        </div> <!-- /row no-gutters-->
+      </div> <!-- /card-->
+
+      <div class="card mb-3 sombra" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="imagEdicion">
+            <img src="./img/san chamuel1.jpg" class="card-img" alt="San Gabriel">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">San Chamuel</h5>
+              <p class="card-text">Amado Chamuel "La gracia de Dios". Nos ayuda a librarnos del rencor, odio, amarguras,
+                resentimientos. Nos libra de la soledad y fortalece nuestra autoestima.</p>
+              <p class="card-text">Día: martes, vela rosada.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#staticBackdrop2">Oración</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-success">
+                      <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Chamuel</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">X</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark text-center">A través de ti siento y conozco el amor de Dios. Lléname de Él,
+                        fuente espiritual de la evolución y la experiencia. Enséñame a perdonar y sentirlo para aceptar
+                        la tolerancia, la fortaleza y la armonía. Permite que la unión de tu mano y la mía inunde de ese
+                        amor a la humanidad guiándonos hacia nuestro Padre Celestial. Estoy lleno de ese amor que
+                        transmite felicidad, salud y belleza. Siento de Él la alegría que acompaña el bienestar y
+                        abundancia. Es lo que "Dios" ha creado y al sentirlo así tu presencia me acompaña para recibir
+                        la bendición angelical. Gracias. Amén.</p>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <p class="text-dark">3 Padrenuestros,</p>
+                      <p class="text-dark">3 Avemarías, 1 Gloria.</p>
+                    </div>
+                  </div>
+                </div> <!-- /modal-dialog -->
+              </div> <!-- /modal fade -->
+            </div> <!-- /card-body -->
+          </div> <!-- /col-->
+        </div> <!-- /row no-gutters-->
+      </div> <!-- /card-->
+    </div> <!-- /row -->
+
+    <div class="row">
+      <div class="card mb-3 sombra" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="imagEdicion">
+            <img src="./img/arcangel jofiel1.jpg" class="card-img" alt="San Gabriel">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Arcángel Jofiel</h5>
+              <p class="card-text">Amado Jofiel "Dios es mi belleza". Permite despertar las almas dormidas. Nos brinda
+                sabiduría divina, iluminación, paz e inteligencia en nuestra vida.</p>
+              <p class="card-text">Día: lunes, vela amarilla.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#staticBackdrop3">Oración</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop3" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-info">
+                      <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a Jofiel</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">X</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark text-center">Con tu amor y tu paz ilumina mi camino, mis sentimientos,
+                        ideales, palabras y acciones. Lléname de inteligencia para aprender a aceptar y entender la
+                        esencia de la sabiduría divina para llegar a la fuente del amor y la felicidad. Eleva mis
+                        aspiraciones, mis estados de conciencia y guíame hacia el crecimiento espiritual para así lograr
+                        la total armonía en mi cuerpo, alma y espíritu. Miro hacia mi interior y me lleno de luz y de
+                        paz, porque sé que ahora tu iluminarás mi vida. Gracias. Amén.</p>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <p class="text-dark">3 Padrenuestros,</p>
+                      <p class="text-dark">3 Avemarías, 1 Gloria.</p>
+                    </div>
+                  </div>
+                </div> <!-- /modal-dialog -->
+              </div> <!-- /modal fade -->
+            </div> <!-- /card-body -->
+          </div> <!-- /col-->
+        </div> <!-- /row no-gutters-->
+      </div> <!-- /card-->
+
+      <div class="card mb-3 sombra" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="imagEdicion">
+            <img src="./img/san miguel1.jpg" class="card-img" alt="San Gabriel">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">San Miguel</h5>
+              <p class="card-text">Amado San Miguel "¿Quién como Dios?". Nos brinda protección hacia malos espíritus o
+                energías negativas, nos da fuerza, equilibrio, valentía e invisibilidad ante nuestros enemigos.</p>
+              <p class="card-text">Día: domingo, vela azul.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#staticBackdrop4">Oración</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop4" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-danger">
+                      <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Miguel</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">X</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark text-center">Con tu espada corta todas mis ataduras y con tu mano cúbreme y
+                        lléname de luz; extermina toda maldad, protégeme y protege a mis seres queridos, mi casa, mi
+                        mascota, mis vecinos de todo peligro. Con tu amor todopoderoso enciende nuestros corazones en
+                        todo momento para amar más a los otros. Que tu divina presencia conforte mi alma; no tengo temor
+                        porque sé estas conmigo. Gracias. Amén.</p>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <p class="text-dark">3 Padrenuestros,</p>
+                      <p class="text-dark">3 Avemarías, 1 Gloria.</p>
+                    </div>
+                  </div>
+                </div> <!-- /modal-dialog -->
+              </div> <!-- /modal fade -->
+            </div> <!-- /card-body -->
+          </div> <!-- /col-->
+        </div> <!-- /row no-gutters-->
+      </div> <!-- /card-->
+    </div> <!-- /row -->
+
+    <div class="row">
+      <div class="card mb-3 sombra" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="imagEdicion">
+            <img src="./img/angel de la guarda1.jpg" class="card-img" alt="San Gabriel">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Angel de la Guarda</h5>
+              <p class="card-text">Es el ángel al que Dios da la misión de protegerme, guardarme y guiarme durante mi
+                vida en la tierra para facilitarme el ascenso al cielo y llevar una vida correcta y fructífera.​</p>
+              <p class="card-text">Todos los días, vela blanca.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#staticBackdrop5">Oración</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop5" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-primary">
+                      <h5 class="modal-title text-light" id="staticBackdropLabel">Oración al Angel de mi Guarda</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">X</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark text-center">Oh Angel de mi Guarda, permite que el cielo se abra como ahora lo
+                        está mi corazón ansioso een busca de la fé más allá de mi presente. Que tu esplendorosa
+                        presencia sea mi guía y que pueda percibir a diario tu dulce compañía símbolo del amor de Dios.
+                        Fortalece mi espíritu y ayúdame a permanecer en el camino correcto. Oh Angel de mi Guarda,
+                        cúbreme con tus alas, ilumina mis acciones, dirige mis pasos y protégeme en este día. Que la
+                        misericordia sea conmigo para que la desolación se transforme en la alegría que aleja todos los
+                        temores. Camina junto a mi en la crisis, en el dolor, en la fatiga y hazme ascender más en la
+                        unión con Dios. Dejáme ser sencillo y sabio y que las oraciones de cada día se mantengan
+                        iluminando mi entendimiento para no exponerme a las tentaciones y adversidades. Por favor Angel
+                        de mi Guarda; permanece en mi presencia, protégeme, dame paz y felicidad y adora a Dios en
+                        mi.Amén.</p>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <p class="text-dark">3 Padrenuestros,</p>
+                      <p class="text-dark">3 Avemarías, 1 Gloria.</p>
+                    </div>
+                  </div>
+                </div> <!-- /modal-dialog -->
+              </div> <!-- /modal fade -->
+            </div> <!-- /card-body -->
+          </div> <!-- /col-->
+        </div> <!-- /row no-gutters-->
+      </div> <!-- /card-->
+
+      <div class="card mb-3 sombra" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="imagEdicion">
+            <img src="./img/zadquiel1.jpg" class="card-img" alt="San Gabriel">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Arcángel Zadquiel</h5>
+              <p class="card-text">Amado Zadquiel "La Virtud de Dios". Nos permite transmutar nuestros malos hábitos o
+                acciones para así alcanzar la transformación de los mismos para bien y desarrollo espiritual.</p>
+              <p class="card-text">Día: sábado, vela violeta.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#staticBackdrop6">Oración</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop6" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-success">
+                      <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a Zadquiel</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">X</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark text-center">Tu que eres el príncipe de la justicia divina, de la
+                        misericordia, del perdón y la liberación, te pido que me envíes con tu presencia la luz
+                        necesaria que me conduzca junto a mis seres queridos y toda la humanidad a vivir cada instante
+                        en unión y armonía. Que el resplandor violeta que de ti emana transmute todo lo negativo del
+                        planeta, de mi país, de mi ciudad, de mi trabajo así como el pensamiento y acción de cada uno de
+                        nosotros. Purificare y purificanos para que exista paz, salud, felicidad, abundancia y amor.
+                        Gracias. Amén.</p>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <p class="text-dark">3 Padrenuestros,</p>
+                      <p class="text-dark">3 Avemarías, 1 Gloria.</p>
+                    </div>
+                  </div>
+                </div> <!-- /modal-dialog -->
+              </div> <!-- /modal fade -->
+            </div> <!-- /card-body -->
+          </div> <!-- /col-->
+        </div> <!-- /row no-gutters-->
+      </div> <!-- /card-->
+    </div> <!-- /row -->
+
+    <div class="row">
+      <div class="card mb-3 sombra" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="imagEdicion">
+            <img src="./img/arcangel-uriel1.jpg" class="card-img" alt="San Gabriel">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Arcángel Uriel</h5>
+              <p class="card-text">Amado Uriel "Luz de Dios". Nos brinda de riquezas espirituales y materiales, nos da
+                paz interior, alegría, armonía y confianza que hemos perdido. Mejora nuestra economía​.</p>
+              <p class="card-text">Día: viernes, vela naranja.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#staticBackdrop7">Oración</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop7" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-info">
+                      <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a Uriel</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">X</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark text-center">Amorosamente, te pido que fortalezcas mi serenidad y mi
+                        paciencia, para así poder ver con claridad, todos los caminos, mis acciones, mis pensamientos.
+                        Si tú me diriges, sabré llegar al sendero de luz, a la llama divina. Desde mi corazón siento tu
+                        calor y protección; me guías hacia lo mejor, el crecimiento a la abundancia y te agradezco de
+                        todo corazón que tu brillo siempre me ayude a solucionar cualquier problema porque sé que tu
+                        divina presencia está conmigo. Gracias. Amén.</p>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <p class="text-dark">3 Padrenuestros,</p>
+                      <p class="text-dark">3 Avemarías, 1 Gloria.</p>
+                    </div>
+                  </div>
+                </div> <!-- /modal-dialog -->
+              </div> <!-- /modal fade -->
+            </div> <!-- /card-body -->
+          </div> <!-- /col-->
+        </div> <!-- /row no-gutters-->
+      </div> <!-- /card-->
+
+      <div class="card mb-3 sombra" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4" id="imagEdicion">
+            <img src="./img/san-rafael.jpg" class="card-img" alt="San Gabriel">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Arcángel San Rafael</h5>
+              <p class="card-text">Amado San Rafael "Curación de Dios". Es el patrón de los viajeros porque con su
+                ayuda, guía en los viajes espirituales en la búsqueda de la verdad y el conocimiento. Nos da salud
+                física.</p>
+              <p class="card-text">Día: jueves, vela verde.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#staticBackdrop8">Oración</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop8" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-success">
+                      <h5 class="modal-title text-light" id="staticBackdropLabel">Oración a San Rafael</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">X</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-dark text-center">Envuélveme con tu luz sanadora, con tu luz de la verdad, porque
+                        sé que con ella toda cosa, toda palabra se vuelve verdad; mi fe es ilimitada porque a través de
+                        ti todo esta sanado mi mente, mi alma, mi cuerpo, mis seres queridos y situaciones. El contacto
+                        con tu fuente de sanación me llena de paz, soy perfecto, lleno de vida y bendigo tu luz.
+                        Gracias. Amén.</p>
+                    </div>
+                    <div class="modal-footer bg-warning">
+                      <p class="text-dark">3 Padrenuestros,</p>
+                      <p class="text-dark">3 Avemarías, 1 Gloria.</p>
+                    </div>
+                  </div>
+                </div> <!-- /modal-dialog -->
+              </div> <!-- /modal fade -->
+            </div> <!-- /card-body -->
+          </div> <!-- /col-->
+        </div> <!-- /row no-gutters-->
+      </div> <!-- /card-->
+    </div> <!-- /row -->
+  </div> <!-- /Container-->
+
+
+  <footer>
+    <div class="row text-center mb-2">
+      <div class="col-md-12 bg-primary">
+        <h6 style="padding-top:6px;">Familia YomaColor - 2020.</h>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 </html>
