@@ -91,5 +91,8 @@ footer i {
 }
 
 
-/* arcangeles.html */
+/* arcángeles.html */
+.sombra:hover {
+    box-shadow:  1px 3px 24px 0 #8becf3d2
+}
 
