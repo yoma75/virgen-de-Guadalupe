@@ -1,15 +1,11 @@
-@media (min-width: 768px) and (max-width: 1454px) {
+@media (min-width: 768px) and (max-width: 2376px) {
     #imagEdicion img {
         height: 284px !important;
         object-fit: cover;             
     }
 
     .card {
-        border: none !important;
+        /* border: none !important; */
         margin: 13px;        
-    }
-    
+    }    
 }
-
-
-
