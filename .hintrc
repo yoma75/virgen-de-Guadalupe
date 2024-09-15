@@ -9,6 +9,14 @@
       {
         "list": "off"
       }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id": "off",
+        "duplicate-id-aria": "off",
+        "duplicate-id-active": "off"
+      }
     ]
   }
 }
